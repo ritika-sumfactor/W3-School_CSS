@@ -1,0 +1,35 @@
+/* Styles applied to the first line of a paragraph */
+p::first-line {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  /* Styles applied to the first letter of a paragraph */
+  p::first-letter {
+    font-size: 2em;
+    color: red;
+  }
+  
+  /* Styles applied to generated content before an element */
+  h1::before {
+    content: "Chapter: ";
+    font-weight: bold;
+  }
+  
+  /* Styles applied to generated content after an element */
+  h1::after {
+    content: " - End of Chapter";
+    font-style: italic;
+  }
+  
+  /* Styles applied to the placeholder text of an input field */
+  input::placeholder {
+    color: gray;
+    font-style: italic;
+  }
+  
+  /* Styles applied to the selection highlight of text */
+  ::selection {
+    background-color: yellow;
+    color: black;
+  }

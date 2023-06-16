@@ -1,0 +1,19 @@
+div p {
+    /* Selects all <p> elements that are descendants of <div> elements */
+    color: blue;
+  }
+  
+  div > p {
+    /* Selects <p> elements that are direct children of <div> elements */
+    font-weight: bold;
+  }
+  
+  h2 + p {
+    /* Selects the first <p> element immediately preceded by an <h2> element */
+    background-color: yellow;
+  }
+  
+  h2 ~ p {
+    /* Selects all <p> elements preceded by an <h2> element (not necessarily immediately) */
+    margin-top: 10px;
+  }

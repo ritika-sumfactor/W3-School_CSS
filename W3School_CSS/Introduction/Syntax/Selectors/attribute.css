@@ -1,0 +1,24 @@
+/* Select all elements with the "data-type" attribute */
+[data-type] {
+  color: blue;
+}
+
+/* Select elements with the "data-type" attribute equal to "heading" */
+[data-type="heading"] {
+  font-size: 24px;
+}
+
+/* Select elements with the "data-type" attribute starting with "para" */
+[data-type^="para"] {
+  font-style: italic;
+}
+
+/* Select elements with the "data-type" attribute ending with "ink" */
+[data-type$="ink"] {
+  text-decoration: underline;
+}
+
+/* Select elements with the "data-type" attribute containing "ple" */
+[data-type*="ple"] {
+  background-color: yellow;
+}
