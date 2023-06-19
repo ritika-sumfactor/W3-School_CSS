@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+    <style>
+        .para1 {
+            font-family: "Verdana", Geneva, sans-serif;
+        }
+
+        .para2 {
+            font-family: "Georgia", serif;
+        }
+
+        .para3 {
+            font-family: "Arial Black", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium dolorum inventore.
+        Assumenda similique earum veniam expedita nesciunt error quia placeat consectetur iure repellat vero, nihil
+        omnis inventore ducimus reiciendis.</p>
+    <p class="para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt perferendis architecto numquam quis
+        incidunt quaerat natus magnam, veritatis qui voluptatibus ut consequatur quo tempore quibusdam aliquam ullam
+        suscipit illo iure.</p>
+    <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eligendi quia quidem suscipit.
+        Recusandae dolore quam natus amet officia non iusto itaque consequatur fugiat, corrupti quibusdam mollitia,
+        dolorum distinctio accusamus.</p>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        div {
+            width: 300px;
+            padding: 10px;
+            border: 5px dashed rgb(85, 139, 148);
+            margin: 0;
+        }
+    </style>
+    <!-- Total element width = width + left padding + right padding + left border + right border + left margin + right margin -->
+</head>
+
+<body>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed accusamus optio doloribus facilis fugiat ab totam
+        modi tenetur voluptatibus, enim quod aspernatur. Qui inventore rerum odit similique sapiente ipsa possimus.
+    </div>
+</body>
+
+</html>

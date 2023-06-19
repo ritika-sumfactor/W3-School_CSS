@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <style>
+        .para1 {
+            color: crimson;
+            text-align: center;
+            text-decoration: line-through;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            font-size: 24px;
+        }
+
+        .para2 {
+            color: navy;
+            text-align-last: center;
+            font-size: 2rem;
+            text-decoration-line: underline;
+            text-decoration-style: dashed;
+            text-decoration-color: green;
+            text-transform: capitalize;
+            line-height: 1.2;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae natus deleniti doloremque quis,
+        nesciunt
+        architecto perspiciatis perferendis dicta distinctio iure tenetur ipsum quia nobis delectus? Pariatur totam
+        facilis quas eaque.</p>
+
+    <p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae natus deleniti doloremque quis,
+        nesciunt
+        architecto perspiciatis perferendis dicta distinctio iure tenetur ipsum quia nobis delectus? Pariatur totam
+        facilis quas eaque.</p>
+</body>
+
+</html>

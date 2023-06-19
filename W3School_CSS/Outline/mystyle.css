@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outline</title>
+<style>
+    div {
+        outline-style: dashed;
+        outline-color: aqua;
+        outline-width: 3px;
+    }
+
+    p {
+        outline: 5px solid yellow;
+        padding: 5px;
+        outline-offset: 5px;
+        border: 2px solid rgb(218, 70, 195);
+        /* outline-offset:- space between outline and border; */
+    }
+</style>
+</head>
+
+<body>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, earum autem possimus recusandae animi
+    voluptatum cum eveniet ullam explicabo dolor vero praesentium modi totam ducimus debitis porro neque saepe
+    exercitationem.</div>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae vel tempore aspernatur veritatis sequi quasi
+    ipsum esse molestias, saepe in illum ad repellat facere corrupti aut, sit delectus! Corporis, ad.</p>
+</body>
+
+</html>
