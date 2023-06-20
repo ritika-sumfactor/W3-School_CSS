@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Styling the ::before pseudo-element */
+        h1::before {
+            content: "Before Text";
+            font-weight: bold;
+            color: blue;
+        }
+
+        /* Styling the ::after pseudo-element */
+        h2::after {
+            content: "After Text";
+            font-style: italic;
+            color: red;
+        }
+
+        /* Styling the ::first-letter pseudo-element */
+        p::first-letter {
+            font-size: 2em;
+            color: green;
+        }
+
+        /* Styling the ::selection pseudo-element */
+        p::selection {
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>This is a heading</h1>
+    <h2>This is another heading</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo turpis nec rhoncus semper. Sed varius
+        dapibus leo, eget congue nulla semper at. Proin id fermentum arcu. Mauris pretium ante sed ullamcorper.</p>
+
+</body>
+
+</html>

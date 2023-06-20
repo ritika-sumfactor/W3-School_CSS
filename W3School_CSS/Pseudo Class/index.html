@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Unvisited link */
+        a:link {
+            color: red;
+        }
+
+        /* Visited link */
+        a:visited {
+            color: green;
+        }
+
+        /* Mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* Selected link */
+        a:active {
+            color: blue;
+        }
+
+        /* First child of a parent */
+        p:first-child {
+            color: purple;
+        }
+
+        /* Last child of a parent */
+        p:last-child {
+            color: orange;
+        }
+
+        /* Every even-numbered child of a parent */
+        p:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        /* Every odd-numbered child of a parent */
+        p:nth-child(odd) {
+            background-color: lightblue;
+        }
+
+        /* Element with focus */
+        input:focus {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Styling with CSS Pseudo-classes</h2>
+
+    <p><a href="#" target="_blank">Unvisited Link</a></p>
+    <p><a href="#" target="_blank">Visited Link</a></p>
+    <p><a href="#" target="_blank">Mouse Over Link</a></p>
+    <p><a href="#" target="_blank">Selected Link</a></p>
+
+    <p>First Child</p>
+    <p>Middle Child</p>
+    <p>Last Child</p>
+
+    <p>Element 1</p>
+    <p>Element 2</p>
+    <p>Element 3</p>
+
+    <input type="text" placeholder="Focus on me">
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/* Using opacity */
+.element {
+    opacity: 0.5; /* Set the opacity to 50% */
+  }
+  
+  /* Using rgba */
+  .element {
+    background-color: rgba(255, 0, 0, 0.5); /* Set the background color to red with 50% opacity */
+  }
+  
+  /* Using hsla */
+  .element {
+    background-color: hsla(0, 100%, 50%, 0.5); /* Set the background color to red with 50% opacity */
+  }
+  
