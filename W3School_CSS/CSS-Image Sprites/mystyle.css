@@ -1,0 +1,29 @@
+.social-icons {
+    display: inline-block;
+    background-image: url("sprites.png");
+    background-repeat: no-repeat;
+    background-size: 200px 60px; 
+    /* Set the size of the sprite image */
+  }
+  
+  .facebook {
+    width: 20px;
+    height: 20px;
+    background-position: -10px -10px; 
+    /* Set the position of the Facebook icon in the sprite */
+  }
+  
+  .twitter {
+    width: 20px;
+    height: 20px;
+    background-position: -40px -10px; 
+    /* Set the position of the Twitter icon in the sprite */
+  }
+  
+  .instagram {
+    width: 20px;
+    height: 20px;
+    background-position: -70px -10px;
+     /* Set the position of the Instagram icon in the sprite */
+  }
+  
