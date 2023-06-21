@@ -1,0 +1,11 @@
+body {
+    counter-reset: my-counter;
+  }
+  
+  h2 {
+    counter-increment: my-counter;
+  }
+  
+  h2:before {
+    content: counter(my-counter) ". ";
+  }

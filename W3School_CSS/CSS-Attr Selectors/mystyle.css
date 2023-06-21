@@ -1,0 +1,19 @@
+/* Select all <a> elements with a title attribute */
+a[title] {
+    color: blue;
+  }
+  
+  /* Select all <input> elements with a type attribute of "text" */
+  input[type="text"] {
+    background-color: yellow;
+  }
+  
+  /* Select all elements with a class attribute starting with "btn" */
+  [class^="btn"] {
+    font-weight: bold;
+  }
+  
+  /* Select all elements with a href attribute ending with ".pdf" */
+  [href$=".pdf"] {
+    color: red;
+  }
