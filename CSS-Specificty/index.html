@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style applied to all paragraphs */
+    p {
+      color: blue;
+    }
+
+    /* Style applied to paragraphs with the class "special" */
+    p.special {
+      color: red;
+    }
+
+    /* Style applied to paragraphs with the id "unique" */
+    #unique {
+      color: green;
+    }
+
+    /* Style applied to paragraphs within the element with the id "container" */
+    #container p {
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <p>This is a regular paragraph.</p>
+    <p class="special">This is a special paragraph with class "special".</p>
+    <p id="unique">This is a unique paragraph with id "unique".</p>
+    <div>
+      <p>This paragraph is inside a nested div.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.image-with-border {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .image-with-border img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-with-border figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
