@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Animation Example</title>
+  <style>
+    /* Define the animation */
+    @keyframes slide-in {
+      0% { opacity: 0; transform: translateX(-100%); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    
+    /* Apply the animation to an element */
+    .animated-element {
+      animation: slide-in 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="animated-element">Welcome to my website!</h1>
+    <p class="animated-element">This is an example of animation .</p>
+  </div>
+</body>
+</html>

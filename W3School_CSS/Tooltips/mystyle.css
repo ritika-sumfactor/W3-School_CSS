@@ -1,0 +1,18 @@
+<style>
+ 
+  .tooltip {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+  }
+
+  .tooltip .tooltip-arrow {
+    border-color: #333;
+  }
+
+  .tooltip:hover .tooltip-arrow {
+    border-color: #fff;
+  }
+</style>
