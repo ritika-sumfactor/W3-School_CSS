@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagination Example</title>
+  <style>
+    .container {
+      width: 600px;
+      margin: 0 auto;
+    }
+    
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .pagination li {
+      list-style-type: none;
+      margin: 0 5px;
+    }
+    
+    .pagination li a {
+      display: inline-block;
+      padding: 5px 10px;
+      text-decoration: none;
+      background-color: #f1f1f1;
+      color: #333;
+      border-radius: 3px;
+    }
+    
+    .pagination li.active a {
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Page Content</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod feugiat arcu, ut aliquam nulla scelerisque a. In hac habitasse platea dictumst.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod feugiat arcu, ut aliquam nulla scelerisque a. In hac habitasse platea dictumst.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod feugiat arcu, ut aliquam nulla scelerisque a. In hac habitasse platea dictumst.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod feugiat arcu, ut aliquam nulla scelerisque a. In hac habitasse platea dictumst.</p>
+    
+    <div class="pagination">
+      <ul>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
